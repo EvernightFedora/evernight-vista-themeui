@@ -1,0 +1,20 @@
+{
+  "KPackageStructure": "Plasma/LayoutTemplate",
+  "KPlugin": {
+    "Authors": [
+      {
+        "Email": "13278297951@sina.cn",
+        "Name": "Evernight Vista Team"
+      }
+    ],
+    "Description": "Default Breath Panel",
+    "EnabledByDefault": true,
+    "Id": "EvernightVista-Panel",
+    "License": "LGPLv2+",
+    "Name": "Evernight Vista Panel",
+    "Version": "43",
+    "Website": "https://space.bilibili.com/515586861"
+  },
+  "X-Plasma-ContainmentCategories": ["panel"],
+  "X-Plasma-Shell": "plasmashell"
+}
