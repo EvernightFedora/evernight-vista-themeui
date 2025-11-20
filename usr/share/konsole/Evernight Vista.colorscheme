@@ -1,20 +1,14 @@
 [Background]
-Color=48,34,119
-RandomHueRange=360
-RandomSaturationRange=100
+Color=0,0,0
 
 [BackgroundFaint]
-Color=33,43,57
-RandomHueRange=360
-RandomSaturationRange=100
+Color=49,54,59
 
 [BackgroundIntense]
-Color=16,18,22
-RandomHueRange=360
-RandomSaturationRange=100
+Color=49,54,59
 
 [Color0]
-Color=39,43,50
+Color=35,38,39
 
 [Color0Faint]
 Color=49,54,59
@@ -23,61 +17,61 @@ Color=49,54,59
 Color=127,140,141
 
 [Color1]
-Color=210,100,109
+Color=237,21,21
 
 [Color1Faint]
-Color=250,120,130
+Color=120,50,40
 
 [Color1Intense]
-Color=180,86,94
+Color=192,57,43
 
 [Color2]
-Color=152,195,121
+Color=17,209,22
 
 [Color2Faint]
-Color=173,220,136
+Color=23,162,98
 
 [Color2Intense]
-Color=129,165,102
+Color=28,220,154
 
 [Color3]
-Color=228,192,121
+Color=246,116,0
 
 [Color3Faint]
-Color=250,209,132
+Color=182,86,25
 
 [Color3Intense]
-Color=200,167,106
+Color=253,188,75
 
 [Color4]
-Color=98,174,239
+Color=29,153,243
 
 [Color4Faint]
-Color=103,184,250
+Color=27,102,143
 
 [Color4Intense]
-Color=82,147,200
+Color=61,174,233
 
 [Color5]
-Color=199,120,221
+Color=155,89,182
 
 [Color5Faint]
-Color=223,135,250
+Color=97,74,115
 
 [Color5Intense]
-Color=179,108,200
+Color=142,68,173
 
 [Color6]
-Color=85,182,194
+Color=26,188,156
 
 [Color6Faint]
-Color=101,217,230
+Color=24,108,96
 
 [Color6Intense]
-Color=75,160,170
+Color=22,160,133
 
 [Color7]
-Color=171,178,191
+Color=252,252,252
 
 [Color7Faint]
 Color=99,104,109
@@ -87,18 +81,12 @@ Color=255,255,255
 
 [Foreground]
 Color=252,252,252
-RandomHueRange=360
-RandomSaturationRange=100
 
 [ForegroundFaint]
 Color=239,240,241
-RandomHueRange=360
-RandomSaturationRange=100
 
 [ForegroundIntense]
-Color=255,255,255
-RandomHueRange=360
-RandomSaturationRange=100
+Color=61,174,233
 
 [General]
 Anchor=0.5,0.5
@@ -106,7 +94,7 @@ Blur=true
 ColorRandomization=false
 Description=Evernight Vista
 FillStyle=Tile
-Opacity=0.5
+Opacity=0.2
 Wallpaper=
 WallpaperFlipType=NoFlip
 WallpaperOpacity=1
