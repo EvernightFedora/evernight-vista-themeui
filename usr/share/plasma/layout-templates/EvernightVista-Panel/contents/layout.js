@@ -28,6 +28,7 @@ if (freeEdges["bottom"] == true) {
 // Round down to next highest even number since the Panel size widget only displays
 // even numbers
 panel.height = 2 * Math.floor(gridUnit * 2.5 / 2)
+panel.floating = false;
 
 // Restrict horizontal panel to a maximum size of a 21:9 monitor
 const maximumAspectRatio = 21/9;
@@ -95,7 +96,9 @@ if (langIds.indexOf(languageId) != -1) {
 }
 
 panel.addWidget("org.kde.plasma.systemtray")
-panel.addWidget("org.kde.plasma.digitalclock")
+let digitalClock = panel.addWidget("org.kde.plasma.digitalclock")
+digitalClock.writeConfig("enabledCalendarPlugins", "holidaysevents")
+digitalClock.writeConfig("showSeconds", 2)
 panel.addWidget("org.kde.plasma.showdesktop")
 
 
