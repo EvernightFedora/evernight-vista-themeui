@@ -22,12 +22,12 @@ if (geo.width > maximumWidth) {
 }
 
 var kickoff = panel.addWidget("org.kde.plasma.kickoff")
-kickoff.writeConfig("favorites", ["preferred://browser", "systemsettings.desktop", "org.kde.dolphin.desktop", "org.kde.konsole.desktop", "org.gnome.Showtime.desktop"])
+kickoff.writeConfig("favorites", ["preferred://browser", "systemsettings.desktop", "org.kde.dolphin.desktop", "org.kde.konsole.desktop", "vlc.desktop"])
 
 
 //panel.addWidget("org.kde.plasma.showActivityManager")
 let taskBar = panel.addWidget("org.kde.plasma.icontasks")
-taskBar.writeConfig("launchers",["preferred://browser","preferred://filemanager","applications:org.gnome.Showtime.desktop"])
+taskBar.writeConfig("launchers",["preferred://browser","preferred://filemanager","applications:vlc.desktop"])
 
 panel.addWidget("org.kde.plasma.marginsseparator")
 panel.addWidget("org.kde.plasma.pager")

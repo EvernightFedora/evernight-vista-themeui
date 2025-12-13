@@ -47,7 +47,7 @@ var kickoff = panel.addWidget("org.kde.plasma.kickoff")
 
 //panel.addWidget("org.kde.plasma.showActivityManager")
 let taskBar = panel.addWidget("org.kde.plasma.icontasks")
-taskBar.writeConfig("launchers",["preferred://browser","preferred://filemanager","applications:org.gnome.Showtime.desktop"])
+taskBar.writeConfig("launchers",["preferred://browser","preferred://filemanager","applications:vlc.desktop"])
 
 panel.addWidget("org.kde.plasma.marginsseparator")
 panel.addWidget("org.kde.plasma.pager")
