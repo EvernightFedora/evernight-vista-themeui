@@ -8,7 +8,7 @@ ColorScheme=EvernightDark
 Theme=Evernight-Exp
 
 [plasmarc][Theme]
-name=evernightaero
+name=evernightaero-nonfree
 
 [kcminputrc][Mouse]
 cursorTheme=EvernightVista
