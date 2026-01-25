@@ -1,0 +1,10 @@
+[AdaptiveTransparency]
+enabled=true
+
+[Desktop Entry]
+Name=Evernight Aero Nonfree
+X-KDE-PluginInfo-Author=Evernight Vista Team
+X-KDE-PluginInfo-License=LGPL
+X-KDE-PluginInfo-Name=evernightaero-nonfree
+X-KDE-PluginInfo-Version=43.1.0
+X-Plasma-API=5.0
